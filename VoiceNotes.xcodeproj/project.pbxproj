@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		C0C74FDF2ED9899400FEC69A /* VoiceNotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C74FDE2ED9899400FEC69A /* VoiceNotesApp.swift */; };
 		C0C74FE12ED9899400FEC69A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C74FE02ED9899400FEC69A /* ContentView.swift */; };
+		C0C750032ED9899400FEC69A /* RecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C74FFC2ED9899400FEC69A /* RecordingView.swift */; };
+		C0C750042ED9899400FEC69A /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C74FFD2ED9899400FEC69A /* DataManager.swift */; };
+		C0C750052ED9899400FEC69A /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C74FFE2ED9899400FEC69A /* Record.swift */; };
+		C0C750062ED9899400FEC69A /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C74FFF2ED9899400FEC69A /* AudioRecorder.swift */; };
+		C0C750072ED9899400FEC69A /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C750002ED9899400FEC69A /* AudioPlayer.swift */; };
+		C0C750082ED9899400FEC69A /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C750012ED9899400FEC69A /* APIService.swift */; };
+		C0C750092ED9899400FEC69A /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C750022ED9899400FEC69A /* DetailView.swift */; };
 		C0C74FE32ED9899700FEC69A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0C74FE22ED9899700FEC69A /* Assets.xcassets */; };
 		C0C74FE62ED9899700FEC69A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0C74FE52ED9899700FEC69A /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -19,6 +26,13 @@
 		C0C74FE02ED9899400FEC69A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C0C74FE22ED9899700FEC69A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0C74FE52ED9899700FEC69A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C0C74FFC2ED9899400FEC69A /* RecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingView.swift; sourceTree = "<group>"; };
+		C0C74FFD2ED9899400FEC69A /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		C0C74FFE2ED9899400FEC69A /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		C0C74FFF2ED9899400FEC69A /* AudioRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorder.swift; sourceTree = "<group>"; };
+		C0C750002ED9899400FEC69A /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		C0C750012ED9899400FEC69A /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		C0C750022ED9899400FEC69A /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +67,13 @@
 			children = (
 				C0C74FDE2ED9899400FEC69A /* VoiceNotesApp.swift */,
 				C0C74FE02ED9899400FEC69A /* ContentView.swift */,
+				C0C74FFC2ED9899400FEC69A /* RecordingView.swift */,
+				C0C74FFD2ED9899400FEC69A /* DataManager.swift */,
+				C0C74FFE2ED9899400FEC69A /* Record.swift */,
+				C0C74FFF2ED9899400FEC69A /* AudioRecorder.swift */,
+				C0C750002ED9899400FEC69A /* AudioPlayer.swift */,
+				C0C750012ED9899400FEC69A /* APIService.swift */,
+				C0C750022ED9899400FEC69A /* DetailView.swift */,
 				C0C74FE22ED9899700FEC69A /* Assets.xcassets */,
 				C0C74FE42ED9899700FEC69A /* Preview Content */,
 			);
@@ -139,6 +160,13 @@
 			files = (
 				C0C74FE12ED9899400FEC69A /* ContentView.swift in Sources */,
 				C0C74FDF2ED9899400FEC69A /* VoiceNotesApp.swift in Sources */,
+				C0C750032ED9899400FEC69A /* RecordingView.swift in Sources */,
+				C0C750042ED9899400FEC69A /* DataManager.swift in Sources */,
+				C0C750052ED9899400FEC69A /* Record.swift in Sources */,
+				C0C750062ED9899400FEC69A /* AudioRecorder.swift in Sources */,
+				C0C750072ED9899400FEC69A /* AudioPlayer.swift in Sources */,
+				C0C750082ED9899400FEC69A /* APIService.swift in Sources */,
+				C0C750092ED9899400FEC69A /* DetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +301,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "需要麦克风权限才能进行录音";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -282,9 +311,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.voicenotes.www.VoiceNotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,6 +334,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "需要麦克风权限才能进行录音";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -311,9 +344,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.voicenotes.www.VoiceNotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
